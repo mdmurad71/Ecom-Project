@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap");
+@import "bigSlider.css";
+@import "button.css";
+@import "common.css";
+@import "card.css";
+@import "footer.css";
+
+@import "megaMenu.css";
+@import "megaMenuMobile.css";
+
+@import "navMenuDesktop.css";
+@import "navMenuMobile.css";
+
+@import "typo.css";
+@import "form.css";
+@import "responsive.css";
+@import "ProductDetails.css";
+@import "placeholder-loading.min.css";
+@import "map.css";

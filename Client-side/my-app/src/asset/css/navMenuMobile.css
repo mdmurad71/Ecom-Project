@@ -1,0 +1,44 @@
+.sideNavOpen{
+    height: 100%;
+    width: 240px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+    font-size: 16px;
+    padding-top: 40px;
+    overflow-x: hidden;
+    transition: 0.1s;
+    background-color: #0f0404;
+    box-shadow: 0 0 8px 0 rgba(57, 78, 234, 0.1)
+
+}
+.sideNavClose{
+    height: 100%;
+    width: 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    font-size: 20px;
+    padding-top: 40px;
+    overflow-x: hidden;
+    transition: 0.1s;
+}
+
+.contentOverlayOpen{
+    display: block;
+    height: 100%;
+    position: fixed;
+    cursor: pointer;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 7;
+    background: rgba(0,0,0,0.5);;
+}
+
+.contentOverlayClose{
+    display: none;
+}
