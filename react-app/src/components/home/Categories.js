@@ -12,6 +12,7 @@ class Categories extends Component {
             isLoading: "BetweenTwoSection",
             MainDiv: "d-none"
         }
+        // console.log(MenuData);
     }
     componentDidMount() {
         axios.get(ApiURL.categoryGetData).then(response => {
@@ -23,7 +24,7 @@ class Categories extends Component {
         const MyList = this.state.MenuData;
         const MyView = MyList.map((ParentList, i) => {
             return <Col key={i.toString()} className="p-0" xl={2} lg={2} md={2} sm={4} xs={4} >
-                <Link to={"ProductListByCategory/" + ParentList.ParentCategoryName}>
+                <Link to={"ProductListByCategory/" + ParentList.parentCategoryName}>
                     <Card className="h-100 w-100 text-center">
                         <Card.Body>
                             <img className="w-75" src={ParentList.parentCategoryImage} alt="" />
